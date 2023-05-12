@@ -1,3 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Inter';
+body{
+    margin: 0;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -5,4 +9,112 @@ nav{
 }
 nav button{
     margin: 10px;
+}
+#frontimg{
+    position: absolute;
+    background: url('images/Rectangle\ 17504.png') no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 40px 40px;
+    background-position: center;
+    height: 500px;
+    width: 100vw;
+}
+.links{
+position: absolute;
+width: 125px;
+height: 18px;
+left: 70px;
+top: 99px;
+}
+.links p a{
+    text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.7);
+}
+.links p{
+    text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.7);
+}
+.image1{
+position: absolute;
+width: 76px;
+height: 76px;
+background: url("/images/Harvard University - jpeg 0.png") no-repeat;
+background-size: cover;
+background-position: center;
+left: 70px;
+top: 180px;
+
+}
+.heading{
+ position: relative;
+width: 367px;
+height: 42px;
+left: 70px;
+top: 129px;
+
+}
+
+.heading p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+color: #FFFFFF;
+
+}
+
+.address{
+ position: absolute;
+width: 459px;
+height: 22px;
+left: 70px;
+top: 309px;
+
+}
+
+.address .desc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+line-height: 35px;
+}
+.btn{
+position: absolute;
+left: 70px;
+top: 451px;
+width: 200px;
+height: 53px;
+display: flex;
+align-items: center;
+background: #FFFFFF;
+border-radius: 8px;
+border: none;
+}
+.btn img{
+    width: 12px;
+    height: 12px;
+}
+.btn p{
+    font-family: 'Inter';
+    padding: 0px 15px 0px 37px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.form{
+    
 }
