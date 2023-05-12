@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Inter';
 body{
     margin: 0;
 }
@@ -10,11 +11,41 @@ nav button{
     margin: 10px;
 }
 #frontimg{
-    position: absolute;
+    /* position: absolute; */
     background: url('https://images.unsplash.com/flagged/photo-1554473675-d0904f3cbf38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFydmFyZCUyMHVuaXZlcnNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60') no-repeat;
     background-size: cover;
     border-radius: 0px 0px 40px 40px;
     background-position: center;
     height: 450px;
-    width: 100vw;
+    width: auto;
+}
+.card{
+    background: #5CB924;
+    border-radius: 16px;
+}
+
+footer{
+    background-color: #f6dcfa;
+    display:  flex ;
+    justify-content: space-between;
+    font-family: 'Inter';
+    /* padding-right: 50px; */
+    
+}
+footer h5{
+    color: grey;
+}
+footer div img{
+    width: 25vw;
+}
+.footer-list{
+    padding: 0px 60px;
+    display:  flex;
+   justify-content: space-between;
+}
+.footer-list ul,li{
+    padding: 0;
+    margin: 0px 5px;
+
+    list-style-type: none;   
 }
